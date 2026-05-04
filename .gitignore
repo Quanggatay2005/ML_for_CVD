@@ -1,0 +1,32 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Datasets and large files
+data/*.csv
+data/*.XPT
+!data/sample_brfss_data.csv
+
+# Models (ignore large pickles if over 50MB, but best to ignore all generated models in the repo to keep it clean)
+models/*.pkl
+models/*.json
+models/*.csv
+models/*.png
+
+# Ignore MLflow runs
+mlruns/
+
+# Docker
+.dockerignore
+
+# IDEs
+.idea/
+.vscode/
+*.swp
