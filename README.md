@@ -1,13 +1,13 @@
 # Pipeline Dự đoán Bệnh Tim Mạch BRFSS (Phiên bản Demo)
 
-Chào mừng! Kho lưu trữ này chứa một pipeline Machine Learning từ đầu đến cuối dự đoán nguy cơ mắc bệnh Tim mạch (CVD) dựa trên dữ liệu khảo sát Hệ thống Giám sát Yếu tố Rủi ro Hành vi (BRFSS) của CDC.
+Repository này chứa một pipeline Machine Learning từ đầu đến cuối dự đoán nguy cơ mắc bệnh Tim mạch (CVD) dựa trên dữ liệu khảo sát Hệ thống Giám sát Yếu tố Rủi ro Hành vi (BRFSS) của CDC.
 
 ## Các tính năng
 
 - **Xử lý dữ liệu**: Pipeline PySpark để làm sạch, xử lý các giá trị bị thiếu và kỹ thuật tính toán đặc trưng.
 - **Huấn luyện mô hình**: Đánh giá nhiều mô hình (LightGBM, Random Forest, SVM) và sử dụng SMOTE để xử lý mất cân bằng lớp.
 - **REST API**: Backend FastAPI phục vụ dự đoán từ mô hình được huấn luyện tốt nhất.
-- **Dasn**: Dùng Streamlit để dự đoán tương tác và trực quan hóa dữ liệu.
+- **Dashboard**: Dùng Streamlit để dự đoán tương tác và trực quan hóa dữ liệu.
 - **Containerization**: Được Docker hóa để triển khai liền mạch.
 
 ## Quick start
